@@ -1,0 +1,19 @@
+libfobos / Fobos SDR regular API Windows runtime package
+
+Packaged for SDRangel Windows dependency repository.
+
+Runtime files in this package:
+- fobos.dll: 2.4.0 Aug 25 2025 18:28:31 (x64)
+- libusb-1.0.dll: x64 runtime dependency
+- fobos.h: regular Fobos API header
+- fobos.lib: MSVC import library
+- fobos.c: corresponding source file from the provided regular API package
+
+Version notes from fobos.h:
+- 2024.05.29: sync mode added: fobos_rx_start_sync, fobos_rx_read_sync, fobos_rx_stop_sync
+- 2024.06.21: update for HW rev.3.0.0
+- 2024.07.08: new band plan
+- 2024.07.20: IQ calibration on the fly
+- 2025.01.16: v2.3.2 distinguishing alternative firmware, fobos_rx_write_firmware()
+- 2025.01.19: v2.3.2 fobos_rx_reset()
+- 2025.08.23: v2.4.0 DC filter improved, VGA gain fixed
