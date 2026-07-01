@@ -1,0 +1,31 @@
+v.3.3.0
+
+- hw rev.4.x.x support
+
+v.3.2.0
+
+- new software DC filter
+
+v.3.1.0
+
+- VGA gain fixed, whole range #0..31 is available
+- new firmpare v.3.1.0 support adeded
+
+v.3.0.2
+
+- floating clock fixed fobos_sdr_set_clk_source()
+- new firmware images v.3.0.2 added
+- firmware update guide modified
+
+v.3.0.1
+
+- fobos_sdr_reset() function to reset the device, no need to replug or press a buttons
+- read/write firmware API fobos_sdr_read_firmware(), fobos_sdr_write_firmware()
+- fobos_sdr_fwloader tool
+- !!! please update the firmware to v.3.0.1
+
+
+v.3.0.0
+
+- the first special release
+
