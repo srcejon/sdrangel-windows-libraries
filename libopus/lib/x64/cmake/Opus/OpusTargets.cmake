@@ -56,7 +56,7 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target Opus::opus
-add_library(Opus::opus SHARED IMPORTED)
+add_library(Opus::opus STATIC IMPORTED)
 
 set_target_properties(Opus::opus PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/opus"
